@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Masood Shabiyulla - Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        /* --- Scroll Reveal Animations (Same as Home) --- */
+        .js-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+            will-change: opacity, transform;
+        }
+        
+        .js-scroll.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- Custom Professional Button Hover --- */
+        .cta-button {
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button:hover {
+            transform: scale(1.05) translateY(-2px);
+            box-shadow: 0 10px 15px rgba(0, 123, 255, 0.2);
+        }
+
+    </style>
+</head>
+<body class="text-gray-800 bg-gray-50">
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="text-2xl font-extrabold text-blue-600 tracking-wider"><a href="index.html">M.S.</a></div>
+                <div class="ml-10 flex items-baseline space-x-6">
+                    <a href="index.html#home" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Home</a>
+                    <a href="#" class="text-blue-600 font-semibold transition duration-300 border-b-2 border-blue-600">About</a>
+                    <a href="index.html#projects" class="text-gray-700 hover:text-blue-600 transition duration-300">Work</a>
+                    <a href="index.html#contact" class="text-gray-700 hover:text-blue-600 transition duration-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        
+        <header class="py-24 bg-gradient-to-br from-blue-50 to-gray-100">
+            <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 js-scroll">
+                <h1 class="text-5xl font-extrabold text-gray-900 tracking-tight mb-4">
+                    Architecting the Digital Experience
+                </h1>
+                <p class="text-xl text-gray-600 font-light max-w-2xl mx-auto">
+                    A deep dive into my professional journey, development philosophy, and specialized technical expertise in Full Stack and AI Development.
+                </p>
+            </div>
+        </header>
+
+        <section id="philosophy" class="py-20 bg-white border-t border-b border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 js-scroll">
+                <h2 class="text-3xl font-bold text-center text-blue-700 mb-12 js-scroll">My Journey & Development Philosophy</h2>
+                <div class="md:w-3/4 lg:w-2/3 mx-auto text-lg text-gray-700 space-y-6">
+                    
+                    <p class="js-scroll" style="transition-delay: 0.1s;">
+                        My journey began not just with coding, but with a fascination for **systematic problem-solving**. I transitioned from mastering backend logic and data structures to appreciating the profound impact of a meticulously designed user interface. This holistic perspective drives my commitment to the Full Stack.
+                    </p>
+                    
+                    <p class="js-scroll" style="transition-delay: 0.2s;">
+                        I advocate for a **holistic development approach**, where the front-end elegance and performance must be inextricably linked to a robust, scalable backend architecture. My goal is always to deliver solutions that are not only beautiful and functional today, but are easily **maintainable, secure, and ready to scale** for tomorrow's demands.
+                    </p>
+                    
+                    <p class="js-scroll" style="transition-delay: 0.3s;">
+                        Code quality is non-negotiable. I prioritize **Test-Driven Development (TDD)**, thorough documentation, and collaborative code reviews to ensure reliability. I believe the true measure of a developer is the longevity and clarity of their code.
+                    </p>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="specialization" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 js-scroll">
+                <h2 class="text-3xl font-bold text-center text-gray-900 mb-12 js-scroll">Core Specializations & Technical Depth</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-blue-600 js-scroll cta-button" style="transition-delay: 0.1s;">
+                        <i class="fas fa-layer-group text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">System Architecture & Scalability</h3>
+                        <p class="text-gray-600">Expert in designing and deploying complex, high-traffic applications using **Microservices** and event-driven architecture. Focused on database efficiency and API design (RESTful/GraphQL).</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-purple-600 js-scroll cta-button" style="transition-delay: 0.2s;">
+                        <i class="fas fa-brain text-4xl text-purple-600 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Advanced AI/ML Integration</h3>
+                        <p class="text-gray-600">Specializing in bridging the gap between data science and production. Experience deploying trained **TensorFlow/PyTorch models** as scalable API endpoints using Python/Flask.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange-600 js-scroll cta-button" style="transition-delay: 0.3s;">
+                        <i class="fas fa-cloud-upload-alt text-4xl text-orange-600 mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">DevOps & Cloud Deployment</h3>
+                        <p class="text-gray-600">Proficient in **AWS (EC2, S3, Lambda)** and Azure services. Deep knowledge of **Docker** containerization and **CI/CD pipelines** to ensure automated, reliable, and secure deployment.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="py-20 bg-white">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 js-scroll">
+                <h2 class="text-3xl font-bold text-center text-blue-700 mb-12 js-scroll">Professional Experience & Milestones</h2>
+
+                <div class="relative pl-8 sm:pl-32 py-4 group">
+                    <span class="absolute left-0 sm:left-20 top-0 h-full w-0.5 bg-blue-200 hidden sm:block"></span>
+                    <i class="fas fa-briefcase absolute left-0 sm:left-[76px] top-6 text-2xl text-white bg-blue-600 p-2 rounded-full z-10 border-4 border-white transition duration-300 group-hover:scale-110"></i>
+                    
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-md transition duration-300 group-hover:shadow-lg group-hover:border-blue-300 border">
+                        <h3 class="text-xl font-bold text-gray-900">Senior Full Stack Engineer</h3>
+                        <p class="text-blue-600 text-sm italic mb-2">Tech Innovators Inc. | 2021 – Present</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-base">
+                            <li><strong class="font-semibold">Impact:</strong> Led the migration of monolith API services to a Microservices architecture, **reducing system latency by 35%**.</li>
+                            <li><strong class="font-semibold">Tech:</strong> Designed and implemented core services using **Node.js, TypeScript, PostgreSQL,** and deployed via **Kubernetes** on AWS.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="relative pl-8 sm:pl-32 py-4 group">
+                    <span class="absolute left-0 sm:left-20 top-0 h-full w-0.5 bg-blue-200 hidden sm:block"></span>
+                    <i class="fas fa-laptop-code absolute left-0 sm:left-[76px] top-6 text-2xl text-white bg-blue-600 p-2 rounded-full z-10 border-4 border-white transition duration-300 group-hover:scale-110"></i>
+                    
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-md transition duration-300 group-hover:shadow-lg group-hover:border-blue-300 border">
+                        <h3 class="text-xl font-bold text-gray-900">Junior Developer & Intern</h3>
+                        <p class="text-blue-600 text-sm italic mb-2">Startup Solutions Ltd. | 2019 – 2021</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1 text-base">
+                            <li><strong class="font-semibold">Impact:</strong> Developed 5+ reusable UI components for the client portal using **React and Tailwind CSS**.</li>
+                            <li><strong class="font-semibold">Tech:</strong> Contributed to feature development on a Flask/MongoDB stack, focusing on API documentation and unit testing.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="credentials" class="py-20 bg-gradient-to-t from-white to-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    
+                    <div class="js-scroll">
+                        <h3 class="text-3xl font-bold text-blue-700 mb-6 border-b pb-2">Education & Training</h3>
+                        <ul class="space-y-4 text-lg text-gray-700">
+                            <li class="p-3 bg-white rounded-lg shadow-sm">
+                                <strong class="text-gray-900">Master of Computer Applications (M.C.A.)</strong><br>
+                                University of Technology | 2017 – 2019
+                            </li>
+                            <li class="p-3 bg-white rounded-lg shadow-sm">
+                                <strong class="text-gray-900">B.Tech. in Information Science</strong><br>
+                                Regional College of Engineering | 2013 – 2017
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="js-scroll" style="transition-delay: 0.15s;">
+                        <h3 class="text-3xl font-bold text-blue-700 mb-6 border-b pb-2">Key Certifications</h3>
+                        <ul class="space-y-4 text-lg text-gray-700">
+                            <li class="p-3 bg-white rounded-lg shadow-sm">
+                                <strong class="text-gray-900">AWS Certified Developer - Associate</strong> (2023)
+                            </li>
+                            <li class="p-3 bg-white rounded-lg shadow-sm">
+                                <strong class="text-gray-900">Certified Kubernetes Administrator (CKA)</strong> (2024)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text-center mt-20 js-scroll">
+                    <p class="text-2xl font-semibold text-gray-800 mb-6">
+                        I am always seeking ambitious projects that push the boundaries of modern web technology.
+                    </p>
+                    <div class="flex justify-center space-x-6">
+                        <a href="index.html#projects" class="px-8 py-3 text-lg font-semibold rounded-lg text-white bg-blue-600 hover:bg-blue-700 cta-button">
+                            <i class="fas fa-eye mr-2"></i> See My Work
+                        </a>
+                        <a href="index.html#contact" class="px-8 py-3 text-lg font-semibold rounded-lg text-blue-600 border-2 border-blue-600 bg-white hover:bg-blue-50 cta-button">
+                            <i class="fas fa-paper-plane mr-2"></i> Let's Connect
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-sm text-gray-500">
+                <p>&copy; 2025 Masood Shabiyulla. All rights reserved.</p>
+                <div class="flex justify-center space-x-6 text-2xl mt-4">
+                    <a href="#" class="text-white hover:text-blue-400 transition duration-300 transform hover:scale-110"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="text-white hover:text-blue-400 transition duration-300 transform hover:scale-110"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ====================================
+        // SCROLL REVEAL ANIMATION (JavaScript)
+        // ====================================
+
+        const scrollElements = document.querySelectorAll(".js-scroll");
+
+        const elementInView = (el, dividend = 1) => {
+            const elementTop = el.getBoundingClientRect().top;
+            return (
+                elementTop <=
+                (window.innerHeight || document.documentElement.clientHeight) / dividend
+            );
+        };
+
+        const displayScrollElement = (element) => {
+            element.classList.add("is-visible");
+        };
+
+        const handleScrollAnimation = () => {
+            scrollElements.forEach((el) => {
+                if (elementInView(el, 1.1)) { 
+                    displayScrollElement(el);
+                } 
+            });
+        };
+
+        window.addEventListener("scroll", handleScrollAnimation);
+        window.addEventListener("load", handleScrollAnimation);
+        setTimeout(handleScrollAnimation, 100);
+    </script>
+</body>
+</html>
